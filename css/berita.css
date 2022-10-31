@@ -55,7 +55,7 @@ body{
 }
 
 .banner-berita {
-    background-image: url(image/Vector.png);
+    background-image: url(../image/Vector.png);
     background-size: cover;
 }
 
