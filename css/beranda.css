@@ -66,8 +66,8 @@ body{
 }
 
 .banner-image .content p {
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 242px;
+    margin-right: 242px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #787878;
@@ -80,8 +80,7 @@ body{
 }
 
 .banner-image .content .coklat {
-    width: 79rem;
-    margin-left: -78px;
+    width: 100%;
     margin-top: 204px;
     margin-bottom: -23px;
     position: static;
@@ -99,6 +98,7 @@ body{
 
 .tentang .container .buku img{
     width: 20em;
+    /* margin-left: 50px; */
 }
 
 .tentang .container h4 {
@@ -140,6 +140,10 @@ body{
     margin-bottom: 50px;
 }
 
+.keunggulan img:hover {
+    transform: scale(1.1);
+}
+
 .keunggulan .row h4 {
     color: #404040;
     font-family: 'Poppins', sans-serif;
@@ -176,10 +180,20 @@ body{
     color: #FF5555;
 }
 
-.gallery .row .col img {
-    width: 271px;
-    border-radius: 10px;
+.gallery .card {
+    border: none;
+    background: none;
 }
+
+.gallery .card-box img{
+    display: inline-block;
+    width: 100%;
+}
+
+.gallery .card-box img:hover {
+    transform: scale(1.1);
+}
+
 
 .gallery .row {
     margin-bottom: 40px;
@@ -191,6 +205,10 @@ body{
 
 .gallery .row .text2 {
     font-family: 'Poppins', sans-serif;
+}
+
+.mitra {
+    margin: 100px 0px 0px;
 }
 
 .mitra .text {
@@ -211,9 +229,9 @@ body{
 .mitra .text p {
     color: #787878;
     font-family: 'Poppins', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30em;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
 }
 
 .mitra .row .col img {
@@ -249,6 +267,15 @@ body{
     border-radius: 10px;
 }
 
+.informasi .card-box img{
+    display: inline-block;
+    width: 100%;
+}
+
+.informasi .card-box img:hover {
+    transform: scale(1.1);
+}
+
 .informasi .row .text{
     margin: 43px 0px 10px;
 }
@@ -259,6 +286,10 @@ body{
 
 .informasi .text p {
     color: #404040;
+}
+
+.informasi .card {
+    border: none;
 }
 
 .banner-salurkan {
@@ -294,17 +325,17 @@ body{
 }
 
 .banner-salurkan .content .coklat {
-    width: 79rem;
-    margin-left: -78px;
+    display: inline-block;
+    width: 100%;
     margin-top: 204px;
-    margin-bottom: -23px;
+    margin-bottom: -74px;
     position: static;
 }
 
 .banner-salurkan .content .home {
     width: 336px;
     /* margin-bottom: 30px; */
-    margin-top: -406px;
+    margin-top: -275px;
 }
 
 footer{
@@ -366,9 +397,9 @@ footer{
         flex-direction: row;
     }
 
-    .banner-image .content {
+    /* .banner-image .content {
         padding: 40px 50px 0 0;
-    }
+    } */
 
     .banner-image .content h1 {
         margin-top: 50px;
@@ -386,6 +417,15 @@ footer{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .mitra .container .row .col img{
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
     }
 
 }
@@ -478,17 +518,17 @@ footer{
         margin: 0px 40px 0px;
     }
     .tentang .row .col h2{
-        font-size: 20px;
+        font-size: 50px;
         font-weight: bold;
     }
 
     .tentang .row .col h4{
-        font-size: 20px;
+        font-size: 50px;
         font-weight: bold;
     }
 
     .tentang .row .col p{
-        font-size: 12px;
+        font-size: 20px;
         margin: 0;
         padding-bottom: 10px;
     }
@@ -498,7 +538,7 @@ footer{
     }
 
     .gallery .row .col img {
-        width: 80%;
+        width: 70%;
         padding: 10px;
         display: flex;
         justify-content: center;
@@ -506,9 +546,6 @@ footer{
         flex-direction: column;
     }
 
-    .mitra .container .row .col img{
-        width: 50%;
-    }
 
     .informasi .row .col img {
         width: 80%;
