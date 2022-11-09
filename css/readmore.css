@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+@import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
 
 *{
     font-family: 'Poppins';
@@ -103,25 +104,22 @@ body{
     margin-bottom: 78px;
 }
 
+.artikellain .card {
+    border: none;
+}
+
 .artikellain h2 {
-    margin-bottom: 40px;
+    margin: 0px 0px 50px;
+    font-family: SF Pro Rounded;
 }
 
-.artikellain .row .col img {
-    width: 333px;
-    border-radius: 10px;
+.artikellain .card-box img{
+    display: inline-block;
+    width: 100%;
 }
 
-.artikellain .row .text{
-    margin: 43px 0px 10px;
-}
-
-.artikellain .text h6 {
-    color: #787878;
-}
-
-.artikellain .text p {
-    color: #404040;
+.artikellain .card-box img:hover {
+    transform: scale(1.1);
 }
 
 footer{
@@ -156,4 +154,24 @@ footer{
 
 .footer1 .share .icons {
     color: #FFFFFF;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 767px){ 
+    .informasi img {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1590px) {
+    
 }
