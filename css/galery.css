@@ -72,10 +72,10 @@ body{
 }
 
 .banner-image .content .Camera {
-    width: 25rem;
-    /* margin-left: -78px; */
-    margin-top: 20px;
-    margin-bottom: 70px;
+    width: 18em;
+    margin-left: 102px;
+    margin-top: 31px;
+    margin-bottom: 57px;
     position: static;
 }
 
@@ -102,6 +102,15 @@ body{
 
 .kegiatan .text p {
     color: #404040;
+}
+
+.kegiatan .card-box img{
+    display: inline-block;
+    width: 90%;
+}
+
+.kegiatan .card-box img:hover {
+    transform: scale(1.1);
 }
 
 .menampilkan .row .page {
@@ -211,7 +220,7 @@ footer{
         font-size: 12px;
     }
 
-    .banner-image .Camera{
+    .banner-image img{
         display: block;
         width: 90%;
         padding-top: 10px;
