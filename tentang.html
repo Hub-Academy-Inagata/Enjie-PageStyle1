@@ -107,19 +107,17 @@
             <p>Berikut adalah video profil dari sekolah kami</p>
         </div>
          <!-- Button trigger modal -->
-        <button class="link" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
+        <button type="button" class="link" data-bs-toggle="modal" data-bs-src="https://www.youtube.com/embed/Jfrjeg26Cwk" data-bs-target="#myModal">
           <img src="image/video2.png" alt="">
         </button>
         <!-- Modal -->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="dbschemaModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body">
-               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></span>
-                </button>        
                 <!-- 16:9 aspect ratio -->
                 <div class="ratio ratio-16x9">
-                  <iframe width="560" height="315" id="video_modal" src="https://www.youtube.com/embed/4ZkOkyzsFE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe class="embed-responsive-item" id="video_modal" src="" allow="autoplay" allowscriptaccess="always"></iframe>
                 </div>
               </div>
             </div>
